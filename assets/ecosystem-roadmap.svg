@@ -1,0 +1,61 @@
+<svg viewBox="0 0 900 580" role="img" aria-labelledby="roadmap-title roadmap-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="roadmap-title">On-chain Financial Ecosystem Roadmap</title>
+  <desc id="roadmap-desc">A three-phase vertical roadmap. Phase 1, Trust Infrastructure, contains the Open Trust Protocol and the Global KYB Network. Phase 2, Financial Intelligence, contains the Global Trusted Score. Phase 3, On-Chain Capital Markets, contains the RWA Liquidity Network.</desc>
+  <defs>
+    <linearGradient id="spine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a7d8c"/>
+      <stop offset="1" stop-color="#113f4a"/>
+    </linearGradient>
+    <style>
+      .surface { fill: #f9fbfc; stroke: #e4eaef; stroke-width: 1.5; }
+      .eyebrow { font: 700 11px "Helvetica Neue", Arial, sans-serif; letter-spacing: 2.5px; }
+      .title { fill: #14262e; font: 700 23px "Helvetica Neue", Arial, sans-serif; }
+      .chip { fill: #ffffff; stroke-width: 1.5; }
+      .chipText { fill: #1e3a45; font: 600 15px "Helvetica Neue", Arial, sans-serif; text-anchor: middle; }
+      .nodeNum { fill: #ffffff; font: 700 15px "Helvetica Neue", Arial, sans-serif; text-anchor: middle; }
+      .watermark { font: 800 110px "Helvetica Neue", Arial, sans-serif; text-anchor: end; opacity: 0.06; }
+      .chevron { fill: none; stroke: #6f93a0; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect class="surface" x="1" y="1" width="898" height="578" rx="20"/>
+
+  <line x1="112" y1="115" x2="112" y2="455" stroke="url(#spine)" stroke-width="2.5"/>
+  <path class="chevron" d="M 105 196 L 112 204 L 119 196"/>
+  <path class="chevron" d="M 105 366 L 112 374 L 119 366"/>
+
+  <!-- Phase 1 · Trust Infrastructure -->
+  <g>
+    <text class="watermark" x="852" y="153" fill="#4a7d8c">01</text>
+    <circle cx="112" cy="115" r="17" fill="#4a7d8c"/>
+    <text class="nodeNum" x="112" y="120.5">1</text>
+    <text class="eyebrow" x="172" y="84" fill="#4a7d8c">PHASE 1</text>
+    <text class="title" x="172" y="112">Trust Infrastructure</text>
+    <rect class="chip" x="172" y="132" width="192" height="40" rx="20" stroke="#4a7d8c"/>
+    <text class="chipText" x="268" y="157">Open Trust Protocol</text>
+    <rect class="chip" x="378" y="132" width="190" height="40" rx="20" stroke="#4a7d8c"/>
+    <text class="chipText" x="473" y="157">Global KYB Network</text>
+  </g>
+
+  <!-- Phase 2 · Financial Intelligence -->
+  <g>
+    <text class="watermark" x="852" y="323" fill="#2f5f6f">02</text>
+    <circle cx="112" cy="285" r="17" fill="#2f5f6f"/>
+    <text class="nodeNum" x="112" y="290.5">2</text>
+    <text class="eyebrow" x="172" y="254" fill="#2f5f6f">PHASE 2</text>
+    <text class="title" x="172" y="282">Financial Intelligence</text>
+    <rect class="chip" x="172" y="302" width="198" height="40" rx="20" stroke="#2f5f6f"/>
+    <text class="chipText" x="271" y="327">Global Trusted Score</text>
+  </g>
+
+  <!-- Phase 3 · On-Chain Capital Markets -->
+  <g>
+    <text class="watermark" x="852" y="493" fill="#113f4a">03</text>
+    <circle cx="112" cy="455" r="17" fill="#113f4a"/>
+    <text class="nodeNum" x="112" y="460.5">3</text>
+    <text class="eyebrow" x="172" y="424" fill="#113f4a">PHASE 3</text>
+    <text class="title" x="172" y="452">On-Chain Capital Markets</text>
+    <rect class="chip" x="172" y="472" width="212" height="40" rx="20" stroke="#113f4a"/>
+    <text class="chipText" x="278" y="497">RWA Liquidity Network</text>
+  </g>
+</svg>

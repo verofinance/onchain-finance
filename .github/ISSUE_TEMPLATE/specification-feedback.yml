@@ -1,0 +1,68 @@
+name: Specification feedback
+description: Report an error, ambiguity, risk, or interoperability concern.
+title: "[Specification feedback]: "
+body:
+  - type: dropdown
+    id: specification
+    attributes:
+      label: Specification
+      description: Which document does this feedback concern?
+      options:
+        - README / ecosystem overview
+        - Open Trust Protocol
+        - Global KYB Network
+        - Global Trusted Score
+        - RWA Liquidity Network
+        - Shared references
+        - Multiple specifications
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Name the heading or line where the concern appears.
+      placeholder: "Example: Open Trust Protocol > Credentials and status"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Technical error
+        - Ambiguous requirement
+        - Interoperability concern
+        - Security or privacy concern
+        - Regulatory or legal-context concern
+        - Stale or missing reference
+        - Editorial correction
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain what is incorrect, unclear, unsafe, or incomplete.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Suggest replacement wording or a concrete resolution.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting sources
+      description: Link primary standards or official documentation when relevant.
+  - type: checkboxes
+    id: public-data
+    attributes:
+      label: Public information
+      options:
+        - label: I have not included secrets, personal data, or confidential information.
+          required: true

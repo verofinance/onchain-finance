@@ -1,0 +1,39 @@
+<svg viewBox="0 0 640 640" role="img" aria-labelledby="ecosystem-title ecosystem-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="ecosystem-title">Customer-centered Onchain Financial Ecosystem</title>
+  <desc id="ecosystem-desc">A circular diagram with the customer at the center, surrounded by a ring of six layers - Identity, KYB, Encrypted Data, Reputation, Assets, and Liquidity - and an outer band of applications such as providers.</desc>
+  <defs>
+    <style>
+      text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; text-anchor: middle; }
+      .l1 { font-size: 19px; font-weight: 650; letter-spacing: 0.3px; }
+      .centerText { fill: #ffffff; font-size: 25px; font-weight: 700; }
+      .centerSmall { fill: #cfe4d6; font-size: 12.5px; }
+    </style>
+    <path id="lp0" d="M 91.37 188 A 264 264 0 0 1 548.63 188"/>
+    <path id="lp1" d="M 91.37 452 A 264 264 0 0 0 548.63 452"/>
+    <path id="lp2" d="M 322.5 148.02 A 172 172 0 0 1 467.69 231.84"/>
+    <path id="lp3" d="M 470.19 236.17 A 172 172 0 0 1 470.19 403.83"/>
+    <path id="lp4" d="M 322.5 491.98 A 172 172 0 0 0 467.69 408.16"/>
+    <path id="lp5" d="M 172.31 408.16 A 172 172 0 0 0 317.5 491.98"/>
+    <path id="lp6" d="M 169.81 403.83 A 172 172 0 0 1 169.81 236.17"/>
+    <path id="lp7" d="M 172.31 231.84 A 172 172 0 0 1 317.5 148.02"/>
+  </defs>
+  <circle cx="320" cy="320" r="296" fill="#fbfdfc"/>
+  <circle cx="320" cy="320" r="264" fill="none" stroke="#59c08c" stroke-width="64"/>
+  <text class="l1" fill="#ffffff" dy="6"><textPath href="#lp0" startOffset="50%">Applications</textPath></text>
+  <text class="l1" fill="#ffffff" dy="-2"><textPath href="#lp1" startOffset="50%">Service Providers</textPath></text>
+  <path d="M 323.28 94.02 A 226 226 0 0 1 514.06 204.17 L 421.32 259.52 A 118 118 0 0 0 321.72 202.01 Z" fill="#389466"/>
+  <text class="l1" fill="#ffffff" dy="6.5"><textPath href="#lp2" startOffset="50%">Identity</textPath></text>
+  <path d="M 517.34 209.86 A 226 226 0 0 1 517.34 430.14 L 423.04 377.51 A 118 118 0 0 0 423.04 262.49 Z" fill="#389466"/>
+  <text class="l1" fill="#ffffff" dy="6.5"><textPath href="#lp3" startOffset="50%">KYB</textPath></text>
+  <path d="M 514.06 435.83 A 226 226 0 0 1 323.28 545.98 L 321.72 437.99 A 118 118 0 0 0 421.32 380.48 Z" fill="#389466"/>
+  <text class="l1" fill="#ffffff" dy="-2"><textPath href="#lp4" startOffset="50%">Encrypted Data</textPath></text>
+  <path d="M 316.72 545.98 A 226 226 0 0 1 125.94 435.83 L 218.68 380.48 A 118 118 0 0 0 318.28 437.99 Z" fill="#389466"/>
+  <text class="l1" fill="#ffffff" dy="-2"><textPath href="#lp5" startOffset="50%">Reputation</textPath></text>
+  <path d="M 122.66 430.14 A 226 226 0 0 1 122.66 209.86 L 216.96 262.49 A 118 118 0 0 0 216.96 377.51 Z" fill="#389466"/>
+  <text class="l1" fill="#ffffff" dy="6.5"><textPath href="#lp6" startOffset="50%">Assets</textPath></text>
+  <path d="M 125.94 204.17 A 226 226 0 0 1 316.72 94.02 L 318.28 202.01 A 118 118 0 0 0 218.68 259.52 Z" fill="#389466"/>
+  <text class="l1" fill="#ffffff" dy="6.5"><textPath href="#lp7" startOffset="50%">Liquidity</textPath></text>
+  <circle cx="320" cy="320" r="112" fill="#235c40"/>
+  <text class="centerText" x="320" y="318">Customer</text>
+  <text class="centerSmall" x="320" y="342">owns identity and consent</text>
+</svg>
